@@ -1,6 +1,6 @@
 # TODO App - CRUD API (Create, Read, Update, Delete)
 
-The standard structure of a to-do is going to be as follows:
+A simple structure of a to-do is going to be as follows:
 ```
 Todo = {
   id: uuid
@@ -9,6 +9,8 @@ Todo = {
   completed: boolean
 }
 ```
+
+Implement this in-memory by storing this inside an array.
 
 ### Routes to Build
 1. **POST** `/todo` : Create new todo
@@ -19,13 +21,13 @@ Todo = {
 
 ### Good to Haves 
 1. Sign-In - `/signin` -> Should return a JWT Token
-2. Authenticate all routes above mentioned routes
+2. Authenticate all above mentioned routes
 
-### Last Priority
+### Last Priority (If time permits)
 1. Setup MongoDB and store todos there (instead of in-memory)
 2. Setup Sign-In and Sign-Up
 
-If login and sign up is being implemented along with a database then the data types are:
+If login and sign up is being implemented along with a database then the models are:
 ```
 User = {
   email: string,
