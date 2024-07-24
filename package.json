@@ -1,0 +1,15 @@
+{
+  "name": "todo-backend-workshop",
+  "version": "1.0.0",
+  "description": "A simple structure of a to-do is going to be as follows: ``` Todo = {   id: uuid   title: string   description: string   completed: boolean } ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
