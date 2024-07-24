@@ -1,6 +1,7 @@
 {
   "name": "todo-backend-workshop",
   "version": "1.0.0",
+  "type": "module",
   "description": "A simple structure of a to-do is going to be as follows: ``` Todo = {   id: uuid   title: string   description: string   completed: boolean } ```",
   "main": "index.js",
   "scripts": {
